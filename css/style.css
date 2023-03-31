@@ -1,0 +1,24 @@
+/* some basic styling */
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif
+}
+
+header {
+  padding: .5rem 0;
+}
+
+nav {
+  border: 1px solid gray;
+}
+
+section {
+  /* sections have a light grey background */
+  background-color: #ccc;
+  margin: .5rem 0;
+  padding: .5rem;
+}
+
+footer {
+  padding-top: 1rem;
+  font-size: 80%;
+}
