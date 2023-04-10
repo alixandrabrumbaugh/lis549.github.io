@@ -3,6 +3,10 @@ h1 {
     font-family: Roboto;
 }
 
+table {
+    border-collapse: collapse;
+}
+
 th {
     font-size: 1.25rem;
     text-align: left;
@@ -11,7 +15,27 @@ th {
     padding: .5rem;
 }
 
-img {
-     width: 100px;
-     height: 100px;
+tr {
+    border-bottom: 1px solid #d3d3d3   
 }
+
+td {
+    padding: .5rem;   
+}
+
+.even-row {
+    background-color: #eee;   
+}
+
+.last-row {
+    border-bottom: 3px solid #d3d3d3   
+}
+
+.highlighted {
+    border: 3px solid magenta;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+>
