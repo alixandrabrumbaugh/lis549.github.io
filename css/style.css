@@ -3,6 +3,8 @@ h1 {
     font-family: Roboto;
 }
 
+/* Table Rules */
+
 table {
     border-collapse: collapse;
 }
@@ -23,6 +25,8 @@ td {
     padding: .5rem;   
 }
 
+/* Row Rules */
+
 .even-row {
     background-color: #eee;   
 }
@@ -35,9 +39,17 @@ td {
     border: 3px solid magenta;
 }
 
+/* Text Rules */
+
 .text-center {
     text-align: center;
 }
+
+.text-bold {
+    font-weight: bold;
+}
+
+/* Image Rules */
 
 img {
     width: 100px;
