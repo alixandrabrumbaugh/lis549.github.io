@@ -10,3 +10,8 @@ th {
     background-color: #d3d3d3;
     padding: .5rem;
 }
+
+img {
+     width: 100px;
+     height: 100px;
+}
