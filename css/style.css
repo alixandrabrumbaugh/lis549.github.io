@@ -21,17 +21,29 @@ g.contained circle.small {
 
 <!-- 5. -->
 g.contained circle, g.contained rect {
-  fill: #c0c0c0
-  stoke: none
+  fill: #c0c0c0;
+  stroke: none;
+  opacity: 1;
 }
 
 <!-- 6. -->
-<!-- 7. -->
-
 path#interactive {
-  fill: #c0c0c0
+  fill: #c0c0c0;
+  stroke: #bd250d;
+  stroke-width: 4px;
+}
+
+<!-- 7. -->
+path#interactive:hover {
+  fill: #bd250d;
 }
 
 <!-- 8. -->
+rect {
+  opacity: 0;
+}
 
 <!-- 9. -->
+path:last-of-type {
+  stroke: none;
+}
