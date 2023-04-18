@@ -1,0 +1,37 @@
+<!-- 1. -->
+circle {
+  fill: #5f5f5f;
+}
+
+<!-- 2. -->
+path {
+  stroke: #5f5f5f;
+  stroke-width: 8px;
+}
+
+<!-- 3. -->
+circle.small {
+  fill: white;
+}
+
+<!-- 4. -->
+g.contained circle.small {
+  fill: #573d29;
+}
+
+<!-- 5. -->
+g.contained circle, g.contained rect {
+  fill: #c0c0c0
+  stoke: none
+}
+
+<!-- 6. -->
+<!-- 7. -->
+
+path#interactive {
+  fill: #c0c0c0
+}
+
+<!-- 8. -->
+
+<!-- 9. -->
