@@ -1,3 +1,7 @@
+rect:first-of-type {
+  opacity: 1; 
+}
+
 <!-- 1. -->
 circle {
   fill: #5f5f5f;
