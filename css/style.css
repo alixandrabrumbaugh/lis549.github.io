@@ -1,53 +1,53 @@
-rect:first-of-type {
+svg rect:first-of-type {
   opacity: 1; 
 }
 
 <!-- 1. -->
-circle {
+svg circle {
   fill: #5f5f5f;
 }
 
 <!-- 2. -->
-path {
+svg path {
   stroke: #5f5f5f;
   stroke-width: 8px;
 }
 
 <!-- 3. -->
-circle.small {
+svg circle.small {
   fill: white;
 }
 
 <!-- 4. -->
-g.contained circle.small {
+svg g.contained circle.small {
   fill: #573d29;
 }
 
 <!-- 5. -->
-g.contained circle, g.contained rect {
+svg g.contained circle, g.contained rect {
   fill: #c0c0c0;
   stroke: none;
   opacity: 1;
 }
 
 <!-- 6. -->
-path#interactive {
+svg path#interactive {
   fill: #c0c0c0;
   stroke: #bd250d;
   stroke-width: 4px;
 }
 
 <!-- 7. -->
-path#interactive:hover {
+svg path#interactive:hover {
   fill: #bd250d;
 }
 
 <!-- 8. -->
-rect {
+svg rect {
   opacity: 0;
 }
 
 <!-- 9. -->
-path:last-of-type {
+svg path:last-of-type {
   stroke: none;
 }
