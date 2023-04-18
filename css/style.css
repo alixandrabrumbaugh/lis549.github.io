@@ -1,49 +1,49 @@
 <!-- 1. -->
-svg circle {
+circle {
   fill: #5f5f5f;
 }
 
 <!-- 2. -->
-svg path {
+path {
   stroke: #5f5f5f;
   stroke-width: 8px;
 }
 
 <!-- 3. -->
-svg circle.small {
+circle.small {
   fill: white;
 }
 
 <!-- 4. -->
-svg g.contained circle.small {
+g.contained circle.small {
   fill: #573d29;
 }
 
 <!-- 5. -->
-svg g.contained circle, g.contained rect {
+g.contained circle, g.contained rect {
   fill: #c0c0c0;
   stroke: none;
   opacity: 1;
 }
 
 <!-- 6. -->
-svg path#interactive {
+path#interactive {
   fill: #c0c0c0;
   stroke: #bd250d;
   stroke-width: 4px;
 }
 
 <!-- 7. -->
-svg path#interactive:hover {
+path#interactive:hover {
   fill: #bd250d;
 }
 
 <!-- 8. -->
-svg rect {
+rect {
   opacity: 0;
 }
 
 <!-- 9. -->
-svg path:last-of-type {
+path:last-of-type {
   stroke: none;
 }
