@@ -82,6 +82,7 @@ header {
   padding-top: 6rem;
   padding-bottom: 1rem;
   background-image: url(../img/paul-gilmore-145802-unsplash.jpg);
+  background-size: cover;
   background-color: #0084AF;
 }
 
@@ -136,5 +137,5 @@ footer p:last-of-type {
 
 footer a {
   color: white;
-  font-decoration: none;
+  text-decoration: none;
 }
