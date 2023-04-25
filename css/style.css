@@ -1,0 +1,54 @@
+body {
+  font-family: "Nunito Sans", Arial, sans serif;
+  font-size: 16px;
+}
+
+/* Heading formatting */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", Helvetica, sans serif;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/* Icon positioning */
+
+span.material-icons {
+  position: relative;
+  top: 5px;
+}
+
+/* Page Spacing */
+
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+p, dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* Nav Bar */
+
+nav {
+  position: fixed; /* Double-check, needs to be in the top-left corner!! */
+  width: 100%;
+  color: white;
+  background: #2C96BF;
+  padding: .5rem;
+  bottom: 1rem;
+}
+
